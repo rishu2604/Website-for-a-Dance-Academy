@@ -1,0 +1,20 @@
+//- layout.pug
+doctype html
+html
+    head
+        title XYZ Dance Academy
+        block scripts
+        block style
+    body
+        nav#navbar 
+            ul
+                li #[a(href="/") Home] 
+                li #[a(href="/") About Us] 
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info] 
+                li #[a(href="/") Contact]
+        block content
+        footer#footer 
+            | Copyright © 2022 xyzDanceAcademy.com 
+            div All rights reserved
+            

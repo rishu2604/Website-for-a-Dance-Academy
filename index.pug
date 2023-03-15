@@ -1,0 +1,38 @@
+//- index.pug
+doctype html
+html
+    head
+    title Dance Academy
+    style
+        include ../static/style.css
+    body
+        nav#navbar 
+            ul
+                li #[a(href="/") Home] 
+                li #[a(href="/") About Us] 
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info] 
+                li #[a(href="/") Contact]
+        
+        section#introSection 
+            |   Welcome to XYZ Dance Academy 
+        
+        section#missionSection
+            h2 Our Mission
+            div.card 
+                h3 This is card#1
+            div.card 
+                h3 This is card#2
+            div.card 
+                h3 This is card#3
+
+
+        section#sponsorSection
+            h2 Our Sponsors 
+
+        footer#footer 
+            | Copyright © 2022 xyzDanceAcademy.com 
+            div All rights reserved
+
+        script
+            include ../static/index.js
